@@ -1,12 +1,17 @@
 {
   "name": "to-gatsby-remark-plugin",
   "version": "0.1.0",
+  "type": "module",
   "description": "Convert remark plugins to gatsby remark plugins",
   "main": "index.js",
   "repository": "https://github.com/kevin940726/to-gatsby-remark-plugin",
   "author": "Kai Hao",
   "license": "MIT",
   "dependencies": {
-    "to-vfile": "^6.1.0"
-  }
+    "to-vfile": "^7.0.0"
+  },
+  "devDependencies": {
+    "unified": "^10.0.0"
+  },
+  "packageManager": "yarn@1.22.22"
 }
